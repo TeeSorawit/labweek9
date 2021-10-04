@@ -17,12 +17,6 @@ int main()
     printf("enter your word :");
     scanf("%s", &text);
     stringlen = strlen(text);
-    printf("stringlen :  %d \n", stringlen);
-     for (i=0; i < stringlen; i++)
-    {
-        printf("%c",text[i]);
-    }
-    printf("\n");
     for (i = stringlen; i >= 0; i--)
     {
         printf("%c",text[i]);
